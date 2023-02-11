@@ -50,7 +50,7 @@ img {
 code,
 pre {
   background-color: var(--text-color);
-  background-color: #fff;
+  color: #fff;
   padding: 10px;
 }
 
@@ -328,6 +328,7 @@ pre {
 
   .navbar .flex {
     flex-direction: column;
+    background-color: red;
   }
 
   .navbar ul {
@@ -336,5 +337,9 @@ pre {
   }
   .showcase-form {
     width: 300px;
+  }
+  .footer .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
 }
