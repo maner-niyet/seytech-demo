@@ -34,105 +34,112 @@
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 /* Margins */
 .my-1 {
-    margin: 1rem 0; /* relative to root (html, default 16px),  */
+  margin: 1rem 0; /* relative to root (html, default 16px),  */
 }
 .my-2 {
-    margin: 1.5rem 0; 
+  margin: 1.5rem 0;
 }
 .my-3 {
-    margin: 2rem 0; 
+  margin: 2rem 0;
 }
 .my-4 {
-    margin: 3rem 0; 
+  margin: 3rem 0;
 }
 .m-1 {
-    margin: 1rem; 
+  margin: 1rem;
 }
 .m-2 {
-    margin: 1.5rem; 
+  margin: 1.5rem;
 }
 .m-3 {
-    margin: 2rem; 
+  margin: 2rem;
 }
 .m-4 {
-    margin: 3rem; 
+  margin: 3rem;
 }
 /* Padding */
 .py-1 {
-    margin: 1rem 0; /* relative to root (html, default 16px),  */
+  margin: 1rem 0; /* relative to root (html, default 16px),  */
 }
 .py-2 {
-    padding: 1.5rem 0; 
+  padding: 1.5rem 0;
 }
 .py-3 {
-    padding: 2rem 0; 
+  padding: 2rem 0;
 }
 .py-4 {
-    padding: 3rem 0; 
+  padding: 3rem 0;
 }
 .p-1 {
-    padding: 1rem; 
+  padding: 1rem;
 }
 .p-2 {
-    padding: 1.5rem; 
+  padding: 1.5rem;
 }
 .p-3 {
-    padding: 2rem; 
+  padding: 2rem;
 }
 .p-4 {
-    padding: 3rem; 
+  padding: 3rem;
 }
 
 /* Backgrounds & Colored btns */
 
-.bg-primary, .btn-primary {
-    background-color: var(--primary-color);
-    color: var(--light-color);
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
 }
 
-.bg-secondary, .btn-secondary {
-    background-color: var(--secondary-color);
-    color: var(--light-color);
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--light-color);
 }
-.bg-dark, .btn-dark {
-    background-color: var(--dark-color);
-    color: var(--light-color);
+.bg-dark,
+.btn-dark {
+  background-color: var(--dark-color);
+  color: var(--light-color);
 }
-.bg-light, .btn-light {
-    background-color: var(--ligth-color);
-    color: #333;
+.bg-light,
+.btn-light {
+  background-color: var(--ligth-color);
+  color: #333;
 }
-.bg-primary a, .btn-primary a,
-.bg-secondary a, .btn-secondary a,
-.bg-dark a, .btn-dark a
-{
-    color: #fff;
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
 }
 
-.bg-light a, .btn-light a {
-    color: #333;
+.bg-light a,
+.btn-light a {
+  color: #333;
 }
 
 /* text sizes */
 .lead {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .sm {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .md {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .lg {
-    font-size: 3rem;
+  font-size: 3rem;
 }
 
 .flex {
@@ -155,25 +162,23 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-
-
 /* Alert */
 .alert {
-    background-color: var(--light-color);
-    padding: 10px 20px;
-    font-weight: bold;
-    margin: 15px 0;
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
 }
 
 .alert i {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .alert-success {
-    background-color: var(--succes-color);
-    color: var(--light-color);
+  background-color: var(--succes-color);
+  color: var(--light-color);
 }
 .alert-error {
-    background-color: var(--error-color);
-    color: var(--light-color);
+  background-color: var(--error-color);
+  color: var(--light-color);
 }
